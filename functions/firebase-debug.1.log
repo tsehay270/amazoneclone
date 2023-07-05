@@ -1,0 +1,39 @@
+[debug] [2023-07-03T14:13:33.754Z] ----------------------------------------------------------------------
+[debug] [2023-07-03T14:13:33.756Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2023-07-03T14:13:33.756Z] CLI Version:   12.4.0
+[debug] [2023-07-03T14:13:33.757Z] Platform:      win32
+[debug] [2023-07-03T14:13:33.757Z] Node Version:  v18.16.0
+[debug] [2023-07-03T14:13:33.757Z] Time:          Mon Jul 03 2023 17:13:33 GMT+0300 (East Africa Time)
+[debug] [2023-07-03T14:13:33.757Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-03T14:13:33.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-03T14:13:33.819Z] > authorizing via signed-in user (tsehay270@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\user\Desktop\Evangadi\EvangadiProjects\AmazonCloning\amazoneclone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-03T14:13:41.125Z] Using project from CLI flag: clone-f0777
+[debug] [2023-07-03T14:13:41.128Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-f0777 [none]
+[debug] [2023-07-03T14:13:42.279Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-f0777 200
+[debug] [2023-07-03T14:13:42.279Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-f0777 {"projectId":"clone-f0777","projectNumber":"653779833144","displayName":"Amazon-clone","name":"projects/clone-f0777","resources":{"hostingSite":"clone-f0777"},"state":"ACTIVE","etag":"1_84263450-3090-4aba-b2d5-dd1ced521385"}
+[info] i  Using project clone-f0777 (Amazon-clone) 
+[info] 
+=== Emulators Setup
